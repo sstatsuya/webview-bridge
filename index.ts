@@ -147,3 +147,5 @@ export {
     AllowMeCanNotSaveImageError,
     requestAllowMeBiometrics,
 } from './src/allow-me';
+
+export * from './src/index'

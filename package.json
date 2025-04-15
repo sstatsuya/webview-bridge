@@ -6,7 +6,7 @@
     "module": "./dist/webview-bridge.mjs",
     "types": "./dist/index.d.ts",
     "files": [
-        "dist"
+        "src"
     ],
     "scripts": {
         "build": "rimraf dist && rollup -c && uglifyjs --compress --mangle -o dist/webview-bridge-umd.min.js dist/webview-bridge-umd.js && uglifyjs --compress --mangle -o dist/webview-bridge-iife.min.js dist/webview-bridge-iife.js",
